@@ -1,0 +1,12 @@
+var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var lines = input.split('\n');
+
+var xj = 65;
+var xi = -2;
+
+for (let i = 0; i <= 12; i++) {
+    xj = xj - 5;
+    xi = xi + 3;
+    console.log("I=" + xi + " J="+xj);   
+    
+}
